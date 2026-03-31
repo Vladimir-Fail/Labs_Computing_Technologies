@@ -1,0 +1,33 @@
+{
+  "modelSettings": {
+    "step": 0.00005
+  },
+  "elctricElements": [
+    {
+      "name": "E1",
+      "type": "E_const",
+      "emf": 100,
+      "resistance": 0.0001,
+      "nodeStart": 0,
+      "nodeFinish": 1
+    },
+    {
+      "name": "R1",
+      "type": "R",
+      "resistance": 5,
+      "nodeStart": 1,
+      "nodeFinish": 2
+    },
+    {
+      "name": "L1",
+      "type": "L",
+      "induction": 0.5,
+      "current": 0,
+      "nodeStart": 2,
+      "nodeFinish": 0
+    }
+  ]
+
+
+
+}

@@ -1,0 +1,604 @@
+{
+  "name": "ПС 110/35 'Кубанская'",
+  "Transformer": [
+    {
+      "name": "T1",
+      "condition": true,
+      "isWorking": true,
+      "hiVoltage": 110,
+      "lowVoltage": 35,
+      "connectedWith": ["Q11", "Q12", "Q9", "Q10"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗТ",
+          "chanceOfFailure": 0.05,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 1.3,
+          "timeSetting": 0.5
+        }
+      }
+    },
+    {
+      "name": "T2",
+      "condition": true,
+      "isWorking": true,
+      "hiVoltage": 110,
+      "lowVoltage": 35,
+      "connectedWith": ["Q13", "Q14", "Q9", "Q10"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗТ",
+          "chanceOfFailure": 0.05,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 1.3,
+          "timeSetting": 0.5
+        }
+      }
+    }
+  ],
+
+  "Line": [
+    {
+      "name": "W1",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q1"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 6.5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 2.05,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W2",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q2"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 6.5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 2.05,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W3",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q3"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 6.5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 2.05,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W4",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q4"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 6.5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 2.05,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W5",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q5"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 11
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 3.55,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W6",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q6"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 11
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 3.55,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W7",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q7"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 11
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 3.55,
+          "timeSetting": 1.5
+        }
+      }
+    },
+    {
+      "name": "W8",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q8"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.07,
+          "setting": 11
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.11,
+          "setting": 3.55,
+          "timeSetting": 1.5
+        }
+      }
+    }
+  ],
+
+  "Bus": [
+    {
+      "name": "B11",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q1", "Q2", "Q11", "Q12", "T1", "Q10", "W1", "W2"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗШ",
+          "chanceOfFailure": 0.05,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 2,
+          "timeSetting": 0.9
+        }
+      }
+    },
+    {
+      "name": "B12",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q3", "Q4", "Q13", "Q14", "T2", "Q10", "W3", "W4"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗШ",
+          "chanceOfFailure": 0.05,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 2,
+          "timeSetting": 0.9
+        }
+      }
+    },
+    {
+      "name": "B21",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q5", "Q6", "Q12", "Q11", "T1", "Q9", "W5", "W6"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗШ",
+          "chanceOfFailure": 0.05,
+          "setting": 10
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 3.4,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "B22",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q7", "Q8", "Q14", "Q9", "Q13", "T2", "W7", "W8"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ДЗШ",
+          "chanceOfFailure": 0.05,
+          "setting": 10
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.1,
+          "setting": 3.4,
+          "timeSetting": 0.3
+        }
+      }
+    }
+  ],
+
+  "CircuitBreaker": [
+    {
+      "name": "Q1",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q2", "Q11", "Q12", "T1", "Q10", "B11", "W1", "W2"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q2",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q1", "Q11", "Q12", "T1", "Q10", "B11", "W1", "W2"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q3",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q4", "Q10", "Q13", "Q14", "T2", "B12", "W3", "W4"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q4",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q3", "Q10", "Q13", "Q14", "T2", "B12", "W3", "W4"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q5",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q6", "Q9", "Q12", "Q11", "T1", "B21", "W5", "W6"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q6",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q5", "Q9", "Q12", "Q11", "T1", "B21", "W5", "W6"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q7",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q8", "Q9", "Q14", "Q13", "T2", "W7", "W8", "B22"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q8",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q7", "Q9", "Q14", "Q13", "T2", "W7", "W8", "B22"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q9",
+      "condition": true,
+      "isWorking": false,
+      "voltage": 110,
+      "connectedWith": ["Q1", "Q2", "Q3", "Q4", "Q11", "Q13"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q10",
+      "condition": true,
+      "isWorking": false,
+      "voltage": 35,
+      "connectedWith": ["Q12", "Q14", "Q5", "Q6", "Q7", "Q8"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q11",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q1", "Q2", "Q10", "Q12", "T1", "B11", "W1", "W2"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q12",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q5", "Q6", "W5", "W6", "Q9", "Q11", "T1", "B21"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    },
+    {
+      "name": "Q13",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 110,
+      "connectedWith": ["Q3", "Q4", "W3", "W4", "Q10", "Q14", "T2", "B12"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 5
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 2,
+          "timeSetting": 0.7
+        }
+      }
+    },
+    {
+      "name": "Q14",
+      "condition": true,
+      "isWorking": true,
+      "voltage": 35,
+      "connectedWith": ["Q7", "Q8", "W7", "W8", "Q9", "Q13", "T2", "B22"],
+      "protection": {
+        "vendor": "'Релематика'",
+        "MainProtection": {
+          "type": "ТО",
+          "chanceOfFailure": 0.03,
+          "setting": 12
+        },
+        "BackupProtection": {
+          "type": "МТЗ",
+          "chanceOfFailure": 0.08,
+          "setting": 3.3,
+          "timeSetting": 0.3
+        }
+      }
+    }
+  ]
+}
